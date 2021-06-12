@@ -2,7 +2,7 @@
 
 export default class Placeholder {
   constructor() {
-    this.url = 'http://localhost:7070'
+    this.url = 'https://jsserviceworker.herokuapp.com/'
     this.itemsContainer = document.getElementById('itemsContainer');
     this.modal = document.querySelector('.mistake');
     this.serviceWorkerRegistration();
